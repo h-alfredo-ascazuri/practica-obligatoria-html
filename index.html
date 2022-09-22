@@ -9,59 +9,81 @@
     <title>Actividad práctica obligatoria</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="javascript:void(0)">Codo a Codo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0)">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="javascript:void(0)">Desactivado</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="text" placeholder="Buscar">
-              <button class="btn btn-primary" type="button">Buscar</button>
-            </form>
-          </div>
-        </div>
-      </nav>
 
+    <!--barra de navegación-->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">Codo a Codo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="javascript:void(0)">Desactivado</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Buscar">
+            <button class="btn btn-primary" type="button">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Cards con imagenes HTML, CSS y Bootstrap-->
     <div class="card">
         <div class="row">
             <div class="col">
-                <img class="card-img-top" src="https://www.masterseosem.com/images/etiquetas-html.webp" alt="Imagen Card HTML" height="60%">
+                <img class="card-img-top" src="https://www.masterseosem.com/images/etiquetas-html.webp" alt="Imagen Card HTML">
                 <div class="card-body">
-                    <div class="card-header">titulo 1</div>
-                    <div class="card-body">Contenido de Card</div>
-                    <div class="card-footer">Ultima actualizacion 1</div>
+                    <div>
+                      <h4 class="card-title">titulo 1</h4>
+                    </div>
+                    <div>
+                      <h6 class="card-text">Contenido de Card</h6>
+                    </div>
+                    <div>
+                      <p class="card-text">Ultima actualizacion 1</p>
+                    </div>
                 </div>
             </div>
             <div class="col">
-                <img class="card-img-top" src="https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png" alt="Imagen Card CSS" height="60%">
+                <img class="card-img-top" src="https://www.solucionex.com/sites/default/files/posts/imagen/css_blog.png" alt="Imagen Card CSS">
                 <div class="card-body">
-                    <div class="card-header">titulo 2</div>
-                    <div class="card-body">Contenido de Card</div>
-                    <div class="card-footer">Ultima actualizacion 1</div>
+                    <div>
+                      <h4 class="card-title">titulo 2</h4>
+                    </div>
+                    <div>
+                      <h6 class="card-text">Contenido de Card</h6>
+                    </div>
+                    <div>
+                      <p class="card-text">Ultima actualizacion 1</p>
+                    </div>
                 </div>
             </div>
             <div class="col">
-                <img class="card-img-top" src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/bootstrap-social-share.png" alt="Imagen Card B" height="60%">
+                <img class="card-img-top" src="https://serv3.raiolanetworks.es/blog/wp-content/uploads/bootstrap-social-share.png" alt="Imagen Card B">
                 <div class="card-body">
-                <div class="card-header">titulo 3</div>
-                <div class="card-body">Contennido de Card</div>
-                <div class="card-footer">Ultima actualizacion 1</div>
+                <div>
+                  <h4  class="card-title">titulo 3</h4>
+                </div>
+                <div>
+                  <h6 class="card-text">Contenido de Card</h6>
+                </div>
+                <div>
+                  <p class="card-text">Ultima actualizacion 1</p>
+                </div>
             </div>
-      </div>
+      </div> <!--idilicamente le daria formato igual a las 3 imagenes para que me queden perfectos pero no tiene sentido en el caso de copiar y pegar html...-->
 
+      <!--formulario de ingreso del usuario-->
       <form action="/action_page.php">
         <div class="mb-3 mt-3">
           <label for="email" class="form-label">Email</label>
